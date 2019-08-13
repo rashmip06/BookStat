@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout tools:context="sdlpro.bookstat.NewAccount"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_new_account"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/homeback"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:textColor="@color/white" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/askagain" android:layout_marginBottom="88dp" android:layout_alignEnd="@+id/register" android:layout_alignRight="@+id/register" android:layout_alignParentBottom="true" android:text="Already a Booktopia user?.."/>
+
+    <Button android:textColor="@color/orange" android:background="@color/white" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/login" android:text="Login" android:layout_toEndOf="@+id/register" android:layout_toRightOf="@+id/register" android:layout_alignBottom="@+id/askagain" android:layout_alignBaseline="@+id/askagain" android:layout_marginStart="12dp" android:layout_marginLeft="12dp"/>
+
+    <Button android:background="@color/white" android:textColor="@color/orange" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/register" android:text="Register" android:layout_centerHorizontal="true" android:layout_above="@+id/login"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/askagain"
+        android:layout_marginTop="159dp"
+        android:ems="10"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white" />
+
+    <EditText android:textColor="@color/white" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pass1" android:layout_marginBottom="50dp" android:layout_above="@+id/pass2" android:layout_alignStart="@+id/pass2" android:layout_alignLeft="@+id/pass2" android:hint="Password" android:ems="10" android:inputType="textPassword"/>
+
+    <EditText android:textColor="@color/white" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pass2" android:layout_marginBottom="20dp" android:layout_above="@+id/register" android:layout_alignStart="@+id/askagain" android:layout_alignLeft="@+id/askagain" android:hint="Confirm Password" android:ems="10" android:inputType="textPassword"/>
+
+    <EditText android:textColor="@color/white" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/name" android:layout_alignStart="@+id/email" android:layout_alignLeft="@+id/email" android:hint="Name" android:ems="10" android:inputType="textPersonName" android:layout_marginTop="35dp" android:layout_alignParentTop="true"/>
+
+    <TextView android:layout_height="wrap_content"  android:textColor="@color/white" android:layout_width="wrap_content" android:id="@+id/textView5" android:text="Welcome to Booktopia!" android:layout_alignStart="@+id/name" android:layout_alignLeft="@+id/name" android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,174 @@
+{
+  "project_info": {
+    "project_number": "871060910247",
+    "firebase_url": "https://booktopia3.firebaseio.com",
+    "project_id": "booktopia3",
+    "storage_bucket": "booktopia3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871060910247:android:3e57d91c2a514fc7",
+        "android_client_info": {
+          "package_name": "com.company.sars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871060910247-dn1hgjr8qutgestmmqvv5qk82e4j1qff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ79KVoXhds5SMBMqhZwW9v87Nv4eBHIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871060910247:android:4ffe7d25bcf80f6a",
+        "android_client_info": {
+          "package_name": "sars.booktopia3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871060910247-skig8hn6604sitdkgr6bgi3edsr0iupc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sars.booktopia3",
+            "certificate_hash": "0ce988a0b6e521917c666e5b535ebcb373fdec1b"
+          }
+        },
+        {
+          "client_id": "871060910247-dn1hgjr8qutgestmmqvv5qk82e4j1qff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ79KVoXhds5SMBMqhZwW9v87Nv4eBHIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871060910247-dn1hgjr8qutgestmmqvv5qk82e4j1qff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871060910247:android:bb1c0138b18868d0",
+        "android_client_info": {
+          "package_name": "sdlpro.bookstat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871060910247-t9ao6h99afc360qagtrnbj5r7qvgsv5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sdlpro.bookstat",
+            "certificate_hash": "1e369ab61ce4473a6ef07dfc54fba6420bebe25d"
+          }
+        },
+        {
+          "client_id": "871060910247-dn1hgjr8qutgestmmqvv5qk82e4j1qff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ79KVoXhds5SMBMqhZwW9v87Nv4eBHIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871060910247-dn1hgjr8qutgestmmqvv5qk82e4j1qff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871060910247:android:40c18b4ca48e7554",
+        "android_client_info": {
+          "package_name": "sdlpro.booktopia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871060910247-2fh8n3d7d7a57kjg3ek38pb6lqlhl5md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sdlpro.booktopia",
+            "certificate_hash": "1e369ab61ce4473a6ef07dfc54fba6420bebe25d"
+          }
+        },
+        {
+          "client_id": "871060910247-dn1hgjr8qutgestmmqvv5qk82e4j1qff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ79KVoXhds5SMBMqhZwW9v87Nv4eBHIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871060910247-dn1hgjr8qutgestmmqvv5qk82e4j1qff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

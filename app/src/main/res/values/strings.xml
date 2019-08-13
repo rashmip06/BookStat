@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">BookStat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Log in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string-array name="Year">
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+    <string-array name="Category">
+        <item>Books</item>
+        <item>Stationary</item>
+        <item>Lab Essentials</item>
+    </string-array>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+
+    </string>
+    <string name="About1">We at BookStat are working to create the best experience for local
+        buying and selling online.
+
+        We developed this app because we were fed up with online marketplaces that are hard to
+        browse, charge expensive listing fees, and are full of spammers and fakes. We wanted to
+        create a simple, secure environment where buyers and sellers can easily trade goods from the
+        palm of their hand. Using the power of your mobile phone, this app has made selling as
+        simple as taking a selfie and buying as easy as commenting on one. And free for everyone to
+        use.
+    </string>
+
+    <string name="About2">Snap a photo, enter a short description, and be selling to thousands
+        of potential buyers within seconds. And making an offer is as quick and easy as sending a
+        text message.
+    </string>
+
+</resources>

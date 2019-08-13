@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout tools:context=".ProfilePhoto" android:background="@drawable/homeback" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/activity_profile_photo" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:textColor="@color/white" android:layout_width="wrap_content" android:id="@+id/textView8" android:layout_toStartOf="@+id/textView9" android:layout_toLeftOf="@+id/textView9" android:layout_alignParentTop="true" android:layout_marginTop="10dp" android:text="Upload Profile Photo..."/>
+
+    <Button android:layout_height="wrap_content" android:textColor="@color/orange" android:background="@color/white" android:layout_width="wrap_content" android:id="@+id/gallery" android:layout_marginTop="16dp" android:text="Select Image from Gallery" android:layout_centerHorizontal="true" android:layout_below="@+id/textView8"/>
+
+    <TextView android:layout_height="wrap_content"  android:textColor="@color/white" android:layout_width="wrap_content" android:id="@+id/textView9" android:layout_marginTop="16dp" android:text="OR" android:layout_centerHorizontal="true" android:layout_below="@+id/gallery"/>
+
+    <Button android:layout_height="wrap_content" android:textColor="@color/orange" android:background="@color/white" android:layout_width="wrap_content" android:id="@+id/cam" android:layout_marginTop="18dp" android:text="Click Image" android:layout_centerHorizontal="true" android:layout_below="@+id/textView9"/>
+
+
+
+</RelativeLayout>
